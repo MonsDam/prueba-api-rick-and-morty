@@ -8,7 +8,7 @@ function Pages () {
         <BrowserRouter>
             <Routes>
             <Route exact path="/" element={<Characters/>}/>
-            <Route exact path = "/details/:id" element={<Details/>}/>
+            <Route exact path = "/details/:id" element={<Details/>}/>  
             </Routes>
         </BrowserRouter>
     )

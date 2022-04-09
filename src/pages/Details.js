@@ -1,6 +1,8 @@
 import { useParams } from "react-router-dom";
 import React, { useState, useEffect }  from 'react';
 
+// request to show a single character
+
 function Details ()  { 
     const {id} = useParams()
 

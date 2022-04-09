@@ -1,6 +1,8 @@
 import React, { useState, useEffect }  from 'react';
 import Card_character from '../components/Card_characters';
 
+// request to show several characters
+
 function Characters (){
 
 const [characters, setCharacters] =useState([]);
